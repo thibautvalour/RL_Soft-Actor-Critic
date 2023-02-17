@@ -103,14 +103,17 @@ class ActorNetwork(nn.Module):
 
         return mean, std
 
-    def sample_normal(self, state, reparameterize=True):
+    def sample_normal(self, state, reparameterize=True, remove_stochasticity=False):
         mean, std = self.forward(state)
         probabilities = Normal(mean, std)
 
-        if reparameterize:
-            actions = probabilities.rsample()
+        if remove_stochasticity:
+            actions = mean
         else:
-            actions = probabilities.sample()
+            if reparameterize:
+                actions = probabilities.rsample()
+            else:
+                actions = probabilities.sample()
 
         action = torch.tanh(actions)*torch.tensor(self.max_action).to(self.device)
         log_probs = probabilities.log_prob(actions)
