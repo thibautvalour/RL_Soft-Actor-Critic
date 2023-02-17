@@ -1,5 +1,7 @@
 # Implementation of Soft Actor-Critic (SAC) for Reinforcement Learning
 
+![Demo File](https://github.com/thibautvalour/RL_Soft-Actor-Critic/blob/main/results/video/presentation_hopper.gif)
+
 This is a reimplementation of the Soft Actor-Critic (SAC) algorithm as described in the original article "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor" by Haarnoja et al, which is a state-of-the-art method in the field of RL.
 
 In SAC, the agent learns a stochastic policy that maximizes the expected sum of rewards, while also maximizing its entropy. This encourages the agent to explore a wide range of actions and avoid getting stuck in local optima. The algorithm also uses a critic network to estimate the state-action value function, and updates both the policy and the critic network based on the sampled experience stored in the replay buffer. The resulting algorithm achieves state-of-the-art performance on a variety of RL tasks.
