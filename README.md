@@ -5,7 +5,7 @@ This is a reimplementation of the Soft Actor-Critic (SAC) algorithm as described
 #### Add a requirement file from Augustin env
 
 ## Usage
-To train the SAC algorithm, create a compatible environnement with the requirement.txt, and simply run:
+To train the SAC algorithm, create an environment compatible with the requirement.txt file, and simply run :
 ```
 python3 main.py
 ```
