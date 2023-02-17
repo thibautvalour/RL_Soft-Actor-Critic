@@ -1,6 +1,6 @@
 # Implementation of Soft Actor-Critic (SAC) for Reinforcement Learning
 
-![](https://github.com/thibautvalour/RL_Soft-Actor-Critic/results/video/presentation_hopper.gif)
+![Demo File](https://github.com/thibautvalour/RL_Soft-Actor-Critic/blob/main/results/video/presentation_hopper.gif)
 
 This is a reimplementation of the Soft Actor-Critic (SAC) algorithm as described in the original article "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor" by Haarnoja et al, which is a state-of-the-art method in the field of RL.
 
