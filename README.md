@@ -3,6 +3,8 @@
 ![Demo File](https://github.com/thibautvalour/RL_Soft-Actor-Critic/blob/main/results/video/Start.gif)
 ![Demo File](https://github.com/thibautvalour/RL_Soft-Actor-Critic/blob/main/results/video/Middle.gif)
 ![Demo File](https://github.com/thibautvalour/RL_Soft-Actor-Critic/blob/main/results/video/presentation_hopper.gif)
+![Demo File](https://github.com/thibautvalour/RL_Soft-Actor-Critic/blob/main/results/video/bipede.gif)
+
 
 This is a reimplementation of the Soft Actor-Critic (SAC) algorithm as described in the original article "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor" by Haarnoja et al, which is a state-of-the-art method in the field of RL.
 
@@ -22,5 +24,3 @@ Default env is HopperBulletEnv-v0, but you can change it as well as other traini
 
 ## Acknowledgements
 This implementation is based on the original paper and the following reference implementation: https://github.com/rail-berkeley/softlearning
-
-![Demo File](https://github.com/thibautvalour/RL_Soft-Actor-Critic/blob/main/results/video/bipede.gif)
