@@ -12,8 +12,6 @@ In SAC, the agent learns a stochastic policy that maximizes the expected sum of 
 
 The implementation includes the SAC algorithm itself, as well as the necessary components such as the neural network architectures and the replay buffer. The code is designed to be modular and easy to use, and can be adapted to various RL environments.
 
-#### Add a requirement file from Augustin env
-
 ## Usage
 To train the SAC algorithm, create an environment compatible with the requirement.txt file, and simply run :
 ```
