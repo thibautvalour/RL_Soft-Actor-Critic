@@ -22,3 +22,5 @@ Default env is HopperBulletEnv-v0, but you can change it as well as other traini
 
 ## Acknowledgements
 This implementation is based on the original paper and the following reference implementation: https://github.com/rail-berkeley/softlearning
+
+![Demo File](https://github.com/thibautvalour/RL_Soft-Actor-Critic/blob/main/results/video/bipede.gif)
